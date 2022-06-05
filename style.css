@@ -1,0 +1,89 @@
+body {
+    background: url('img/background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: solid 1px white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: lowercase;
+    margin: 0 15px;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffea00;
+}
+
+section#tagline {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#tagline h1 {
+    margin-bottom: 160px;
+}
+
+#tagline h1 em {
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+}
+
+a.button {
+    display: block;
+    height: 86px;
+    width: 305px;
+    background: url(img/button-background.png) top left no-repeat;
+    margin: 0 auto;
+    color: black;
+    line-height: 86px;
+    font-size: 18px;
+}
+
+a.button:hover {
+    color: white;
+    text-shadow: 0 1px 5px #333;
+}
+
+a.button:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 150px;
+}
